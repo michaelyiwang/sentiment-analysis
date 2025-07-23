@@ -41,7 +41,7 @@ def predict(raw_text: str, model) -> None
 * Applies a threshold of `0.5` for binary classification:
 
   * < 0.5 → Negative ⛔️
-  * > 0.5 → Positive ✅
+  * \> 0.5 → Positive ✅
   * \= 0.5 → Neutral 😑
 
 ## Example Usage
